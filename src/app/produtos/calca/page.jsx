@@ -11,7 +11,7 @@ export default function Calca(){
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, delectus. Et iusto praesentium accusamus quisquam magni doloremque maxime exercitationem. Totam, at? Quae quam eaque quod atque unde eius libero dolor.</p>
                 <p><Link href="/">Voltar....</Link> </p>
                 <figure>
-              <Image src = "/public/imagens/jeans.jpg" alt= "Calça Jeans" width={320}
+              <Image src = "/imagens/jeans.jpg" alt= "Calça Jeans" width={320}
               height={320}/>
 
             </figure>

@@ -13,7 +13,7 @@ export default function Tenis(){
 
 
             <figure>
-              <Image src = "/public/imagens/tenis.jpg" alt= "Tênis" width={320}
+              <Image src = "/imagens/tenis.jpg" alt= "Tênis" width={320}
               height={320}/>
 
             </figure>

@@ -11,7 +11,7 @@ export default function Camiseta(){
                 <p><Link href="/">Voltar....</Link> </p>
             </div>
             <figure>
-              <Image src = "/public/imagens/camiseta.jpg" alt= "Camiseta" width={320}
+              <Image src = "/imagens/camiseta.jpg" alt= "Camiseta" width={320}
               height={320}/>
 
             </figure>

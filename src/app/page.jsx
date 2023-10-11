@@ -19,7 +19,7 @@ export default function Home() {
 
 
             <figure>
-              <Image src = "/public/imagens/roupas.jpg" alt= "Prateleira" width={320}
+              <Image src = "/imagens/roupas.jpg" alt= "Prateleira" width={320}
               height={320}/>
 
             </figure>
