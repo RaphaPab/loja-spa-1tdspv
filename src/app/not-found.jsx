@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function NotFound() {
   return (
@@ -6,11 +7,12 @@ export default function NotFound() {
         <h1>OPSS! 404</h1>
         <p>!NOT FOUND</p>
         <div>
-            <Image
+            <Image 
             src="https://httpstatusdogs.com/img/404.jpg"
-            alt="Cachorro cavando...."
+            alt="Cachorro cavando..."
             width={650}
-            heigt={500}/>
+            height={500}
+            />
         </div>
 
 

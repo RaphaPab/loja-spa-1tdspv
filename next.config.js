@@ -3,15 +3,13 @@ const nextConfig = {}
 
 module.exports = 
 {
-    imagens : {
-        remotePatterns: [
+    images : {
+        remotePatterns:[
             {
-                protocol:"https",
-                hostname: " httpstatusdogs.com",
-                port:"",
-                pathname:"/img/**"
-
-
+                protocol: "https",
+                hostname: "httpstatusdogs.com",
+                port: "",
+                pathname: "/img/**"
             },
         ],
     },
