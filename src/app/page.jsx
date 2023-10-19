@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -7,15 +7,7 @@ export default function Home() {
       <h1>HOME</h1>
 
         <div>
-            <ul>
-            <li><Link href="./produtos/tenis">Tênis</Link></li>
             
-            <li><Link href="/produtos/calca">Calça</Link></li>
-            
-            
-            <li><Link href="/produtos/camiseta">Camiseta</Link></li>
-            
-            </ul>
 
 
             <figure>
