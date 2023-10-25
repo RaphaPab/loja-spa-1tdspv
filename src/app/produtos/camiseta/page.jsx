@@ -1,20 +1,25 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
 
-export default function Camiseta(){
+export default function Camisa(){
     return(
         <div>
-            <h1> Camiseta</h1>
-
+            <h1>Camisa</h1>
             <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, delectus. Et iusto praesentium accusamus quisquam magni doloremque maxime exercitationem. Totam, at? Quae quam eaque quod atque unde eius libero dolor.</p>
-                <p><Link href="/">Voltar....</Link> </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corporis incidunt vitae labore ea, quaerat fuga modi voluptas rerum architecto tempore illo, laborum vero consectetur iste dolore asperiores distinctio. Libero!
+                </p>
+                <p><Link href="/">Voltar</Link></p>
             </div>
             <figure>
-              <Image src = "/imagens/camiseta.jpg" alt= "Camiseta" width={320}
-              height={320}/>
-
-            </figure>
+      <Image src="/images/shirt.jpg"
+      width={500}
+      height={500}
+      alt='Imagem de um camisa'
+      />
+      <figcaption>Camisas</figcaption>
+    </figure>
         </div>
+        
     )
 }
