@@ -1,0 +1,12 @@
+{
+    "usuario":[
+        {"id":1,
+    "nome":"João",
+    "email":"joaoxpto@giga.com.br",
+    "senha":"123456"
+    },
+    {"id":2,"nome":"Maria","email":"mariasdfsa@giga.com.br","senha":"123456"},
+    {"id":3,"nome":"José","email":"jaso@giga.com.br","senha":"123456"},
+    {"id":4,"nome":"Carlos","email":"ccarlos@giga.com.br","senha":"123456"}
+    ]
+}
